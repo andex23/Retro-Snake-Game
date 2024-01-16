@@ -2,7 +2,7 @@
 
 Overview
 
-This project is a modern take on the classic Snake game, developed using HTML, CSS, and JavaScript for the front-end, and Node.js with Express and SQLite for the back-end. The game features a traditional gameplay experience where the player controls a snake, guiding it to collect food while avoiding collision with the game borders and itself. This version stands out by offering a scoring system with a database-backed high score tracking feature, allowing players to see a list of top scores.
+This project is a modern take on the classic Snake game, developed using HTML, CSS, and JavaScript for the front-end, and Node.js with Express and SQLite for the back-end. The game features a traditional gameplay experience where the player controls a snake, guiding it to collect food while avoiding collision with the game borders and itself. This version stands out by offering a scoring system with a database-backed high-score tracking feature, allowing players to see a list of top scores.
 
 Features
 Classic Snake Gameplay: Navigate the snake around the game board to collect food and grow in size.
@@ -47,37 +47,39 @@ Installation and Setup
 
 Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/andex23/Retro-snake-game
-cd snake-game
-
-Install Dependencies:
-
-bash
-Copy code
-npm install
-Start the Server:
-
-bash
-Copy code
-node server.js
-Access the Game:
-Open index.html in your web browser to start playing the game.
+  bash
+  Copy code
+  git clone https://github.com/andex23/Retro-snake-game
+  cd snake-game
+  
+  Install Dependencies:
+  
+  bash
+  Copy code
+  npm install
+  Start the Server:
+  
+  bash
+  Copy code
+  node server.js
+  
+  Access the Game:
+  
+  Open index.html in your web browser to start playing the game.
 
 How to Play
 
-*Use the arrow keys to control the direction of the snake.
-*Guide the snake to the food items that appear randomly on the board.
-*Avoid colliding with the walls or the snake's own tail.
+  *Use the arrow keys to control the direction of the snake.
+  *Guide the snake to the food items that appear randomly on the board.
+  *Avoid colliding with the walls or the snake's own tail.
 
 Contributing
 
-Contributions to enhance this Snake Game are welcome. Whether it's bug fixes, new features, or improvements to the documentation, your help is appreciated. Please feel free to fork the repository and submit pull requests.
+  Contributions to enhance this Snake Game are welcome. Whether it's bug fixes, new features, or improvements to the documentation, your help is appreciated. Please feel free to fork the repository and submit pull requests.
 
 License
 
-This project is open-source and available under the MIT License.
+  This project is open-source and available under the MIT License.
 
 Author 
-Andrew Ihekoronye 💙
+  Andrew Ihekoronye 💙
