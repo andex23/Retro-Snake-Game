@@ -202,8 +202,16 @@ function stopGame() {
 }
 
 function showGameOverMessage() {
-    const gameOverText = document.getElementById('gameOverText');
-    gameOverText.style.display = 'block'; // Show game over message
+    board.innerHTML = ''; // Clear the board
+    const gameOverText = document.createElement('div');
+    gameOverText.textContent = 'Game Over!';
+    gameOverText.id = 'gameOverText'; // Ensure this ID is unique and styled in CSS
+    board.appendChild(gameOverText);
+
+    const restartText = document.createElement('div');
+    restartText.textContent = 'Press Space to Start a New Game';
+    restartText.id = 'restartText'; // Ensure this ID is unique and styled in CSS
+    board.appendChild(restartText);
 }
 
 function hideGameOverMessage() {
