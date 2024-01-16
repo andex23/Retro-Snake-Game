@@ -85,3 +85,10 @@ body{
 #logo {
     position: absolute;
 }
+
+#gameOverText {
+    color: red;
+    font-size: 2em;
+    text-align: center;
+    
+}
