@@ -114,7 +114,8 @@ function move() {
 // }, 200);
 
 function startGame() {
-    gameStarted = true; // Keep track of running game
+    gameStarted = true;
+    hideGameOverMessage(); // Hide game over message when starting a new game
     instructionText.style.display = 'none';
     logo.style.display ='none';
     gameInterval = setInterval(() => {
@@ -180,6 +181,7 @@ function checkCollision() {
 function resetGame() {
     updateHighScore();
     stopGame();
+    showGameOverMessage();
     snake = [{x: 10, y: 10}];
     food = generateFood();
     direction = 'right';
@@ -197,6 +199,16 @@ function stopGame() {
     gameStarted = false;
     instructionText.style.display = 'block';
     logo.style.display ='block';
+}
+
+function showGameOverMessage() {
+    const gameOverText = document.getElementById('gameOverText');
+    gameOverText.style.display = 'block'; // Show game over message
+}
+
+function hideGameOverMessage() {
+    const gameOverText = document.getElementById('gameOverText');
+    gameOverText.style.display = 'none'; // Hide game over message
 }
 
 function updateHighScore() {
