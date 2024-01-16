@@ -1,4 +1,4 @@
-# Retro-snake-game
+# Retro-Snake-Game
 
 Overview
 
