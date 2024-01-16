@@ -187,6 +187,7 @@ function resetGame() {
     direction = 'right';
     gameSpeedDelay = 200;
     updateScore();
+    showGameOverMessage();
 }
 
 function updateScore() {
@@ -202,15 +203,14 @@ function stopGame() {
 }
 
 function showGameOverMessage() {
-    board.innerHTML = ''; // Clear the board
+     board.innerHTML = ''; // Clear the board
     const gameOverText = document.createElement('div');
     gameOverText.textContent = 'Game Over!';
-    gameOverText.id = 'gameOverText'; // Ensure this ID is unique and styled in CSS
-    board.appendChild(gameOverText);
-
+    gameOverText.id = 'gameOverText'; // Ensure this ID is styled in CSS
     const restartText = document.createElement('div');
     restartText.textContent = 'Press Space to Start a New Game';
-    restartText.id = 'restartText'; // Ensure this ID is unique and styled in CSS
+    restartText.id = 'restartText'; // Ensure this ID is styled in CSS
+    board.appendChild(gameOverText);
     board.appendChild(restartText);
 }
 
