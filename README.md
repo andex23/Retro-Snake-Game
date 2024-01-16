@@ -1,4 +1,8 @@
+
 # Retro-Snake-Game
+
+<img width="626" alt="Screenshot 2024-01-16 at 11 25 23 AM" src="https://github.com/andex23/Retro-Snake-Game/assets/49397867/523cf888-d92f-465c-9869-b2f846741dde">
+
 
 Overview
 
